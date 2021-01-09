@@ -1,0 +1,20 @@
+* {box-sizing: border-box;
+background-color: powderblue;}
+
+.img-magnifier-container {
+  position: relative;
+}
+
+#donutchart{
+  background-color: powderblue;
+}
+
+.img-magnifier-glass {
+  position: absolute;
+  border: 3px solid #000;
+  border-radius: 50%;
+  cursor: none;
+  /*Set the size of the magnifier glass:*/
+  width: 100px;
+  height: 100px;
+}
